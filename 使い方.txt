@@ -1,0 +1,26 @@
+＜説明＞
+自分専用の読み上げBotです。
+
+＜事前準備＞
+Bot作成
+https://discordpy.readthedocs.io/ja/latest/discord.html
+Bot Permissionsは以下にチェック
+・Read Messeages/View Channels
+・Send Messeages
+・Read Message History
+・Connect
+・Speak
+・Use Voice Activity
+⇒作成したURL、トークンは控えておく
+
+作成したURLから読み上げたいサーバに招待
+
+「config.py」のTOKENを作成したトークンに変更
+
+python3.Xをインストール（基本最新で良い）
+https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe
+
+＜起動方法＞
+「Bot起動.bat」をダブルクリック
+招待したサーバのチャットチャンネルで「あうあう」と入力 ⇒ 読み上げ開始
+招待したサーバのチャットチャンネルで「あいあい」と入力 ⇒ 読み上げ終了
